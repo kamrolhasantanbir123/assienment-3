@@ -18,7 +18,7 @@
  <!-- font awasome ed -->
  <style>
     .font-poppins {
-        font-family: "Poppins", sans-serif;
+        font-family: "Manrope", sans-serif;
     }
  </style>
  <!-- tailwind starts -->
@@ -45,7 +45,104 @@
    <link rel="stylesheet" href="style/style.css">
   <!-- html ed -->
 </head>
-<body>
-     
+<body class="font-poppins">
+      <!-- Header starts section -->
+      <header class="md:container mx-auto bg-container-1">
+        <nav class="bg-container-1">
+          <div class="navbar bg-base-100">
+            <div class="navbar-start justify-center items-center lg:pr-20">
+              <a class="font-bold text-2xl"> <i class="fa-solid fa-arrow-right -rotate-45 w-7 h-7 bg-bike-primary-bg-1 inline-flex rounded-full text-black justify-center items-center"></i> Rinterio</a>
+            </div>
+            <div class="navbar-center hidden lg:flex pr-32">
+              <ul class="menu menu-horizontal px-1">
+                <li><a class="font-bold">Home</a></li>
+                <li><a>Services</a></li>
+                <li><a>Portfolio</a></li>
+                <li><a>Blogs</a></li>
+                <li><a>Contact</a></li>
+              </ul>
+            </div>
+            <!-- lest 3 st -->
+            <div class="pr-3 hidden lg:flex"><button class="btn btn-white btn-circle">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+              </svg>
+            </button></div>
+            <div class="pr-2 hidden lg:flex">
+              <button class="btn btn-white btn-circle">
+              <!-- shop st -->
+              <i class="fa fa-cart-shopping"></i>
+                <!-- shop ed -->
+              </button>
+            </div>
+            <div class="md:flex-1 pr-5 hidden lg:flex">
+              <a class="font-bold text-xl btn bg-bike-primary-bg-1 text-white rounded-full">Book Consult <i class="fa-solid fa-arrow-right -rotate-45 w-7 h-7 bg-black inline-flex rounded-full text-white justify-center items-center"></i></a>
+            </div>
+            <div class="lg:hidden sm:flex-1 md:flex-1 pl-36">
+              <div class="dropdown">
+                <!-- div 1 st -->
+                <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h16M4 18h7"/>
+                  </svg>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 p-2 shadow">
+                  <li><a>Homepage</a></li>
+                  <li><a>Portfolio</a></li>
+                  <li><a>About</a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- lest 3 ed -->
+          </div>
+        </nav> 
+  
+        <!-- slider carousel starts -->
+        <div class="carousel w-full lg:h-[550px] bg-container-1">
+          <!-- slide 1 st -->
+          <div id="" class="carousel-item relative w-full">
+            <div class="flex flex-col lg:flex-row p-12 lg:p-24">
+              <!-- text content st -->
+               <div class="space-y-7 flex-1 text-center mb-3 justify-center items-center">
+                <div class="justify-center items-center ml-3/4
+                mb-9">
+                  <img class="lg:pl-36" src="./assets/banner.png" alt="">
+                </div>
+                <div class="space-y-9">
+                  <h2 class="text-4xl lg:text-5xl font-bold">A barn house of this design has a <br> striking appearance</h2>
+                <p class="">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+                <button class="btn bg-container-1 bg-container-2 justify-center items-center">View Details <i class="fa-solid fa-arrow-right -rotate-45 w-7 h-7 bg-container-1 inline-flex rounded-full text-black justify-center items-center"></i></button>
+                </div>
+               </div>
+              <!-- text content ed -->
+               
+               
+          
+  
+          <!-- slide 3 ed -->
+        </div>
+        <!-- slider carousel ends -->
+       </header>
+       <!-- header section ed -->
 </body>
 </html>
